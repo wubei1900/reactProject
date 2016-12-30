@@ -2,6 +2,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --profile --progress --colors --hot --port 8080 --content-base build",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
     "test": "test"
   },
   "repository": {
