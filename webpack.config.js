@@ -46,10 +46,7 @@ var config = {
         ]
     },
     devServer: {
-        historyApiFallback: true,
-        hot: true,
-        inline: true,
-        progress: true
+        historyApiFallback: true
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
